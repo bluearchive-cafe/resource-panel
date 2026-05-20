@@ -1,6 +1,6 @@
 const element = (id) => document.getElementById(id);
 const uid = new URLSearchParams(location.search).get("uid");
-const webuiVersion = "WebUI v1.1.7 Beta";
+const webuiVersion = "WebUI v1.1.7 Beta - URL fix";
 const UI_COMPAT_STORAGE_KEY = "bluearchivecafe-webui-compat-enabled";
 const APP_CONFIG = {
     assets: {
@@ -17,7 +17,7 @@ const APP_CONFIG = {
     },
     urls: {
         apiBase: "https://api.bluearchive.cafe",
-        shareBase: "https://dash.bluearchive.cafe"
+        shareBase: "https://control.bluearchive.cafe"
     }
 };
 const API_ENDPOINTS = {
